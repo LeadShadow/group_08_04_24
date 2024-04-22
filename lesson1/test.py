@@ -66,7 +66,8 @@ a = input('Введіть щось: ')
 print(type(a))  # type(object) -> повертає тип об'єкта який ми прокинемо в дужках
 # 10, '10'
 
-x = int(input('Введіть перше число: '))  # 'dawdwadaw' -> 10
+x = int(input('Введіть перше число: '))  # 'dawdwadaw' -> '10'
 y = int(input('Введіть друге число: '))
 
 print(x + y)
+# bool, float, str, int
