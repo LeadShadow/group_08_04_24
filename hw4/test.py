@@ -11,3 +11,12 @@ total_trip = 0
 
 
 def calculate_trip_price(distance_km):
+    global total_trip
+    total_trip += 1
+    return base_rate + distance_km * price_per_km
+
+
+print(calculate_trip_price(7), 1, 2, 3, 4, 5, 6, 10, 12)
+print(total_trip)
+print(calculate_trip_price(10))
+print(total_trip)
