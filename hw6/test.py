@@ -3,4 +3,12 @@
 # сплатити за рахунками. Напишіть функцію amount_payment, яка приймає на вхід список платежів,
 # підсумовує додатні значення та повертає суму платежу наприкінці місяця.
 
-def amount_payment(payment):
+def amount_payment(payment):  # payment = [304, 532, -131, -54, 678]
+    sum = 0
+    for i in payment:
+        if i > 0:
+            sum = sum + i
+    return sum
+
+
+print(amount_payment([304, 532, -131, -54, 678]))  # amount_payment([304, 532, -131, -54, 678]) -> 1514
