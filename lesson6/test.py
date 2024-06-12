@@ -121,6 +121,7 @@ print(chars)
 
 # copy, clear
 
+# update
 chars = {'a': 1, 'b': 2}
 chars1 = {'c': 3}
 chars.update(chars1)

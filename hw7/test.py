@@ -4,3 +4,14 @@
 # хочемо знайти. Таким чином, результат може бути як список ключів, так і порожній
 # список, якщо ми нічого не знайдемо.
 
+# {'Sasha': '+380937316050', 'Masha': '+380937316050', 'Oksana': '+380937316050'}
+
+def lookup_key(data, value):
+    result = []
+    for key in data:
+        if data[key] == value:
+            result.append(key)
+    return result
+
+
+print(lookup_key({'Sasha': '+380937316050', 'Masha': '+380937316050', 'Oksana': '+380937316051'}, '+380937316050'))
