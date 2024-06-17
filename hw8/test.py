@@ -4,3 +4,18 @@
 # У перший потрапляють значення менше середнього, включаючи середнє значення, тоді як у другий
 # — строго більше від середнього. Функція повертає кортеж цих двох списків. Для порожнього
 # списку повертаємо два порожні списки.
+grades = [1, 2, 4, 12, 10, 7, 9, 11]
+def split_list(grades):
+    average = sum(grades) / len(grades)
+    print(average)
+    list1 = []
+    list2 = []
+    for i in grades:
+        if i > average:
+            list1.append(i)
+        else:
+            list2.append(i)
+    return list1, list2
+
+
+print(split_list(grades))
