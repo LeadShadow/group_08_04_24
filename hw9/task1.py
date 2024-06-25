@@ -40,3 +40,23 @@ articles_dict = [
 
 
 def find_articles(key, letter_case=False):
+    mathing_articles = []
+    search_key = key.lower() if not letter_case else key
+
+    for article in articles_dict:
+        title = article['title']
+        author = article['author']
+
+        title_to_check = title.lower() if not letter_case else title
+        author_to_check = author.lower() if not letter_case else author
+
+        if search_key in title_to_check or search_key in author_to_check:
+            mathing_articles.append({
+                'author': author,
+                'title': title,
+                'year': article['year']
+            })
+    return mathing_articles
+
+
+print(find_articles('Artur'))
