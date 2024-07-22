@@ -66,3 +66,41 @@ python sort.py /user/Desktop/Мотлох
 Перелік всіх розширень, які скрипту невідомі.
 Цей результат або вивести в консоль, або зберегти в файл.
 """
+from pathlib import Path
+import shutil
+import sys
+from normalize import normalize
+import file_parser as parser
+
+
+def handler(filename: Path, target_folder: Path):
+    # створити папку
+    target_folder.mkdir(exist_ok=True, parents=True)
+    # замінюємо шлях до файлу + перетворюємо кирилицю на латиницю
+    filename.replace(target_folder / normalize(filename.name))
+
+
+def handlers_folders(folder: Path):
+    try:
+        folder.rmdir()
+    except OSError:
+        print(f'Не вдалось видалити папку {folder.name}')
+
+
+def handler_archive(filename: Path, target_folder: Path):
+    # створити папку
+    target_folder.mkdir(exist_ok=True, parents=True)
+    # створить папку і розпакувати туди архів
+    # беремо суфікс у файла і забираємо replace(filename.suffix, '')
+    folder_for_file = target_folder / normalize(filename.name.replace(filename.suffix, ''))
+
+    # створюємо папку для архіву з іменем файлу
+    folder_for_file.mkdir(exist_ok=True, parents=True)
+
+    try:
+        shutil.unpack_archive(str(filename.resolve()), str(folder_for_file.resolve()))
+    except shutil.ReadError:
+        print(f'Це не архів! {filename.name}')
+        folder_for_file.rmdir()
+        return None
+    filename.unlink()
