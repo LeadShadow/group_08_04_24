@@ -63,7 +63,7 @@ def scan(folder: Path) -> None:
         # якшо це папка то додаємо її в список FOLDERS, і переходимо до наступного елементу
         if item.is_dir():
             # перевіряємо шоб ця папка не була тою в яку ми складаємо файли
-            if item.name not in ('archives', 'video', 'audio', 'documents', 'images', 'OTHER'):
+            if item.name not in ('archives', 'video', 'audio', 'documents', 'images', 'OTHERS'):
                 FOLDERS.append(item)
                 # скануємо вложену папку(рекурсія)
                 scan(item)
