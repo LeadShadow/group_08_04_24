@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fa9a8a6-82f5-402a-98f7-3d4b8915ee89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson14/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson14/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/file_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson13/file_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson13/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/test/Echelon-Stealer-master.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/test/how-to-use-figma-as-file-storage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/test/photo_2022-10-14_09-31-43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/test/standard.tbk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/test/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/test/test1/3laba_АК.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/test/testlesson34.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/test/КОЗЗ_7_laba.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/test/МВ ЛР АК.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/test/Океан Ельзи - На лiнii вогню.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/test/Океан Ельзи - Не питай.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/test/Океан Ельзи - Я так хочу....mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/test/Океан Эльзи - Без бою.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson14/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson14/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +53,7 @@
       <recent name="C:\Users\pc\Desktop\заняття\group_08_04_24\lesson13\test\test1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="file_parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="group_08_04_24" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,6 +68,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson13/file_parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="group_08_04_24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson15" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson15/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,35 +164,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_archive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="group_08_04_24" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson11/test_archive.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.normalize" />
         <item itemvalue="Python.file_parser" />
-        <item itemvalue="Python.test_archive" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +203,7 @@
       <workItem from="1719593867854" duration="5746000" />
       <workItem from="1721576416356" duration="5493000" />
       <workItem from="1721677659517" duration="649000" />
-      <workItem from="1722181988717" duration="3427000" />
+      <workItem from="1722181988717" duration="8869000" />
     </task>
     <servers />
   </component>
@@ -264,5 +248,6 @@
     <SUITE FILE_PATH="coverage/group_08_04_24$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1718555695582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw8" />
     <SUITE FILE_PATH="coverage/group_08_04_24$task1__1_.coverage" NAME="task1 (1) Coverage Results" MODIFIED="1719249190412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw9" />
     <SUITE FILE_PATH="coverage/group_08_04_24$task1__2_.coverage" NAME="task1 (2) Coverage Results" MODIFIED="1719251939571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson10" />
+    <SUITE FILE_PATH="coverage/group_08_04_24$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1722968483081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson15" />
   </component>
 </project>
