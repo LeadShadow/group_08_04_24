@@ -10,3 +10,12 @@
 # в змінній date (без часу).
 # Наприклад: Якщо поточна дата - '5 травня 2021', то виклик get_days_from_today("2021-10-09")
 # поверне нам -157.
+# 2021-05-05 - 2021-10-09
+from datetime import datetime
+
+
+def get_days_from_today(date: str):
+    return (datetime.now() - datetime.strptime(date, "%Y-%m-%d")).days
+
+
+print(get_days_from_today('2022-02-24'))
