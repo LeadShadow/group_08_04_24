@@ -19,3 +19,29 @@
 #     WordFrequency(word='banana', frequency=2),
 #     WordFrequency(word='orange', frequency=1)
 # ]
+import pprint
+from collections import namedtuple
+
+# 1 створення іменованого кортежу
+WordFrequency = namedtuple('WordFrequency', ['word', 'frequency'])
+list_of_fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
+
+
+def func(word_list):
+    word_counts = {}
+    # 2 створення словника для підрахунку частоти слів
+    for word in word_list:
+        if word in word_counts:
+            word_counts[word] += 1
+        else:
+            word_counts[word] = 1
+
+    # 3 створення списку namedtuple, з результатами
+    result = []
+    for word, count in word_counts.items():
+        result.append(WordFrequency(word=word, frequency=count))
+
+    return result
+
+
+pprint.pprint(func(list_of_fruits))
