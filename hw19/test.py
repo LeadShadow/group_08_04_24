@@ -22,3 +22,15 @@ weather_data = [
     {"date": "2024-09-06", "temperature": 23},
     {"date": "2024-09-07", "temperature": 27}
 ]
+
+temperatures = list(map(lambda entry: entry['temperature'], weather_data))
+
+print(temperatures)
+
+hot_days = list(filter(lambda temp: temp > 22, temperatures))
+
+print(hot_days)
+
+count_hot_days = len(hot_days)
+
+print(count_hot_days)
