@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fa9a8a6-82f5-402a-98f7-3d4b8915ee89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson26/task1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson26/task2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson26/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson27/task1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw26/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw26/task1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,29 @@
       <recent name="C:\Users\pc\Desktop\заняття\group_08_04_24\lesson13\test\test1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task1">
+  <component name="RunManager" selected="Python.task1 (1)">
+    <configuration name="task1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="group_08_04_24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson27" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson27/task1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="task1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="group_08_04_24" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,50 +109,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="group_08_04_24" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson24" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson24/task6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="group_08_04_24" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson24" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson24/task7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="group_08_04_24" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,6 +123,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson26/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="group_08_04_24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson27" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson27/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task1 (1)" />
+        <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.task1" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.task7" />
-        <item itemvalue="Python.task6" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +235,10 @@
       <workItem from="1728665358296" duration="1862000" />
       <workItem from="1728834392673" duration="4013000" />
       <workItem from="1729439280346" duration="4776000" />
+      <workItem from="1729531039965" duration="554000" />
+      <workItem from="1729704885444" duration="589000" />
+      <workItem from="1729878955433" duration="1164000" />
+      <workItem from="1730220536670" duration="3959000" />
     </task>
     <servers />
   </component>
@@ -289,7 +292,7 @@
     <SUITE FILE_PATH="coverage/group_08_04_24$test_archive.coverage" NAME="test_archive Coverage Results" MODIFIED="1719648228288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11" />
     <SUITE FILE_PATH="coverage/group_08_04_24$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1728491488218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson24" />
     <SUITE FILE_PATH="coverage/group_08_04_24$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1728490327130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw23" />
-    <SUITE FILE_PATH="coverage/group_08_04_24$task1__1_.coverage" NAME="task1 (1) Coverage Results" MODIFIED="1728490535921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw23" />
+    <SUITE FILE_PATH="coverage/group_08_04_24$task1__1_.coverage" NAME="task1 (1) Coverage Results" MODIFIED="1730224531800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27" />
     <SUITE FILE_PATH="coverage/group_08_04_24$task6.coverage" NAME="task6 Coverage Results" MODIFIED="1728492868510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson24" />
     <SUITE FILE_PATH="coverage/group_08_04_24$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1725381050082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson19" />
     <SUITE FILE_PATH="coverage/group_08_04_24$task4.coverage" NAME="task4 Coverage Results" MODIFIED="1728491787909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson24" />
@@ -302,7 +305,7 @@
     <SUITE FILE_PATH="coverage/group_08_04_24$test__4_.coverage" NAME="test (4) Coverage Results" MODIFIED="1716105497484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5" />
     <SUITE FILE_PATH="coverage/group_08_04_24$driver_license.coverage" NAME="driver_license Coverage Results" MODIFIED="1713685915607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson2" />
     <SUITE FILE_PATH="coverage/group_08_04_24$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1727022916598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson22" />
-    <SUITE FILE_PATH="coverage/group_08_04_24$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1727022742422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson22" />
+    <SUITE FILE_PATH="coverage/group_08_04_24$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1730223846849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27" />
     <SUITE FILE_PATH="coverage/group_08_04_24$test10.coverage" NAME="test10 Coverage Results" MODIFIED="1728490986270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson22" />
     <SUITE FILE_PATH="coverage/group_08_04_24$task1__2_.coverage" NAME="task1 (2) Coverage Results" MODIFIED="1728491081269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson24" />
   </component>

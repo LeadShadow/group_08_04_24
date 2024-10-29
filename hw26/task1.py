@@ -50,3 +50,4 @@
 # # print(persons.contacts[0].name == person_from_file.contacts[0].name)  # True
 # # print(persons.contacts[0].email == person_from_file.contacts[0].email)  # True
 # # print(persons.contacts[0].phone == person_from_file.contacts[0].phone)  # True
+
