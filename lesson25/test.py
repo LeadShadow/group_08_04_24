@@ -88,6 +88,3 @@ with open(file_name, 'r') as file:
 
 print(some_data)
 print(unpacked)
-
-# Повномасштабна війна в Україні - 24 лютого 2022 року
-#
