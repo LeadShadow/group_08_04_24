@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fa9a8a6-82f5-402a-98f7-3d4b8915ee89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson36/task1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson36/task10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson36/task11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson36/task2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson36/task3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson36/task4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson36/task5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson36/task6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson36/task7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson36/task8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson36/task9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw36_project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +259,7 @@
       <workItem from="1735487239153" duration="5613000" />
       <workItem from="1736091445890" duration="4703000" />
       <workItem from="1736282685567" duration="805000" />
-      <workItem from="1736695989403" duration="5293000" />
+      <workItem from="1736695989403" duration="5734000" />
     </task>
     <servers />
   </component>
